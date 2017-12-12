@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>New Site</title>
+  <meta name="description" content="Your description.">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.min.css">
+  <link href="/img/favicon.png" rel="shortcut icon">
+</head>
+
+  <body>
+  
+
+  <div class="nav">
+    index.html | <a href="/about">about.html</a> →
+  </div>
+
+<div class="container">
+
+<h1 id="markdown-allows-you-to-write-using-an-easy-to-read-easy-to-write-plain-text-format-that-converts-to-html-">Markdown allows you to write using an easy-to-read, easy-to-write plain text format that converts to HTML.</h1>
+<h2 id="by-typing-different-characters-and-punctuation-you-can-bold-_italicize_-link-http-thisismarkdown-com-your-text-and-display-images-">By typing different characters and punctuation, you can <strong>bold</strong>, <em>italicize</em>, <a href="http://thisismarkdown.com/">link</a> your text, and display images.</h2>
+<h3 id="bold">Bold</h3>
+<p>Wrap words with two asterisks:</p>
+<pre><code class="lang-markdown">*<span class="hljs-strong">*I am bold.*</span><span class="hljs-strong">*</span>
+</code></pre>
+<h3 id="italic">Italic</h3>
+<p>Wrap words with an underscore:</p>
+<pre><code class="lang-markdown">_I am italic.<span class="hljs-keyword">_</span>
+</code></pre>
+<h3 id="links">Links</h3>
+<p>Wrap word(s) in square brackets and the link in parentheses:</p>
+<pre><code class="lang-markdown">[<span class="hljs-string">I am a [link</span>](<span class="hljs-link">http://thisismarkdown.com/</span>)
+</code></pre>
+<h3 id="images">Images</h3>
+<p>Like a text link, but with an exclamation point at the beginning:</p>
+<pre><code class="lang-markdown">![<span class="hljs-string">Optional Alt Text</span>](<span class="hljs-link">/img/example.gif "Optional title"</span>)
+</code></pre>
+<p><em>Note: You <strong>must</strong> link directly to an image, i.e. ending in <code>.gif</code>, <code>.jpg</code>, etc.</em></p>
+<p><img src="https://farm6.static.flickr.com/5029/5658551241_8852d44b38_o.gif" alt="This is used for the alt attribute." title="This is used for the title attribute."></p>
+<h3 id="new-lines">New Lines</h3>
+<p>To create a new line, you need to end with two empty spaces (shown as black boxes below):</p>
+<pre><code>This will <span class="hljs-keyword">be</span> <span class="hljs-keyword">on</span> the <span class="hljs-keyword">first</span> <span class="hljs-built_in">line</span>🁢🁢
+<span class="hljs-built_in">and</span> this will <span class="hljs-keyword">be</span> <span class="hljs-keyword">on</span> the second <span class="hljs-built_in">line</span>
+</code></pre><h3 id="headings">Headings</h3>
+<p>Using the <code>#</code> symbol you can set <strong>H3</strong> through <strong>H6</strong> headings. Unfortunately, <strong>H1</strong> and <strong>H2</strong> aren’t working right now.</p>
+<pre><code class="lang-markdown"><span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">## This is an H3</span></span>
+<span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">### This is an H4</span></span>
+</code></pre>
+<h2 id="more-options">More Options</h2>
+<h3 id="bulleted-lists">Bulleted Lists</h3>
+<p>Add a dash <code>-</code> in front of each line:</p>
+<pre><code class="lang-markdown">-<span class="ruby"> Item One
+</span>-<span class="ruby"> Item Two
+</span>-<span class="ruby"> Item Three</span>
+</code></pre>
+<h3 id="numbered-lists">Numbered Lists</h3>
+<p>Add a number and period in front of each line:</p>
+<pre><code class="lang-markdown"><span class="hljs-number">1</span>. <span class="hljs-keyword">Item </span>One
+<span class="hljs-number">1</span>. <span class="hljs-keyword">Item </span>Two
+<span class="hljs-number">1</span>. <span class="hljs-keyword">Item </span>Three
+</code></pre>
+<p><em>Note: That’s not a typo. Using only <code>1.</code> will still convert to a proper numbered list, which makes reordering lists a lot easier</em></p>
+<h3 id="block-quotes">Block Quotes</h3>
+<p>Add a  <code>&gt;</code> at the beginning of a paragraph to quote it:</p>
+<pre><code class="lang-markdown">&gt; this <span class="hljs-built_in">line</span> will look like <span class="hljs-keyword">the</span> <span class="hljs-literal">quote</span> below
+</code></pre>
+<blockquote>
+<p>this is what a blockquote looks like</p>
+</blockquote>
+<h3 id="inline-code">Inline Code</h3>
+<p>Wrap text in a single backtick at the top left of your keyboard:</p>
+<pre><code class="lang-markdown">`border-radius: <span class="hljs-number">3</span>px;`
+</code></pre>
+<h3 id="code-block">Code Block</h3>
+<p>Wrap code with triple backticks, and add the language name like so:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn mr1 mb1"</span>&gt;</span>Primary<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn--secondary mr1 mb1"</span>&gt;</span>Secondary<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn--outline mr1 mb1"</span>&gt;</span>Outline<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn disabled"</span>&gt;</span>Disabled<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</code></pre>
+<h3 id="horizontal-rules">Horizontal Rules</h3>
+<p>To create a horizontal line for separating content use:</p>
+<pre><code> <span class="hljs-string">***</span> <span class="hljs-string">OR</span> <span class="hljs-meta">---</span>
+</code></pre><h3 id="tables">Tables</h3>
+<p>Using vertical lines <code>|</code>, you can even create tables:</p>
+<table>
+<thead>
+<tr>
+<th>Making</th>
+<th style="text-align:center">Markdown</th>
+<th style="text-align:right">Tables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This column</td>
+<td style="text-align:center">This one</td>
+<td style="text-align:right">And this</td>
+</tr>
+<tr>
+<td>is left</td>
+<td style="text-align:center">is set to</td>
+<td style="text-align:right">is right</td>
+</tr>
+<tr>
+<td>align</td>
+<td style="text-align:center">be centered</td>
+<td style="text-align:right">aligned</td>
+</tr>
+</tbody>
+</table>
+<p>The markdown to create this <em>(notice the use of <code>:</code> to indicate alignment)</em>:</p>
+<pre><code class="lang-markdown"><span class="hljs-params">| Making      |</span>  Markdown   <span class="hljs-params">|   Tables |</span>
+<span class="hljs-params">|-------------|</span><span class="hljs-symbol">:-----------</span><span class="hljs-symbol">:|---------</span><span class="hljs-symbol">:|</span>
+<span class="hljs-params">| This column |</span>   This one  <span class="hljs-params">| And this |</span>
+<span class="hljs-params">| is left     |</span>  is set to  <span class="hljs-params">| is right |</span>
+<span class="hljs-params">| align       |</span> be centered <span class="hljs-params">|  aligned |</span>
+</code></pre>
+<h5 id="learn-more-about-markdown-check-out-https-daringfireball-net-projects-markdown-">Learn more about Markdown, check out <a href="https://daringfireball.net/projects/markdown/">https://daringfireball.net/projects/markdown/</a></h5>
+
+
+</div>
+
+  <script src="/js/main.min.js"></script>
+
+  </body>
+</html>
